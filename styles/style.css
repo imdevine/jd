@@ -1,0 +1,103 @@
+* {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+
+	/* Size & Positioning */
+	margin: 0;
+	padding: 0;
+
+	}
+
+	
+	main {
+
+		/* Size & Positioning */
+		width: 100%;
+		height: 100%;
+
+		/* Design */
+		background: rgb(103, 63, 63);
+		background: rgb(63, 48, 48);
+		background: rgb(179, 120, 120);
+		background: rgb(49, 61, 60);
+		background: rgb(29, 35, 34);
+		background: rgb(7, 5, 7);
+
+		}
+
+		section.height--100vh {
+
+			position: relative;
+			height: 100vh;
+
+		}
+
+		#title--hero { z-index: 10;
+
+			width: 100%;
+			height: 100vh;
+			pointer-events: none;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			position: fixed;
+			top: 0;
+			left: 0;
+
+			}
+
+			h1 {
+
+				font: 500 9.7rem "Associate Sans";
+				line-height: 1;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				color: rgb(200, 32, 26);
+
+				}
+
+			h2.subtitle--h2 {
+
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				color: rgb(180, 23, 23);
+				margin-top: 1rem;
+				font: 700 1.1rem "Cormorant";
+
+				}
+
+
+		section#slide--1 {
+
+
+			/* Design */
+			background: rgb(49, 61, 60);
+
+			}
+
+
+.kerning--uppercase-a {		padding-right: 0.346rem; }
+.kerning--uppercase-b {		padding-right: 0.346rem; }
+.kerning--uppercase-c {		padding-right: 0.346rem; }
+.kerning--uppercase-d {		padding-right: 0.346rem; }
+.kerning--uppercase-e {		padding-right: 0.146rem; transform: scale(2, 1); display: inline-block; }
+.kerning--uppercase-f {		padding-right: 0.346rem; }
+.kerning--uppercase-g {		margin-left: -0.646rem; }
+
+.kerning--lowercase-a {		padding-right: 0.346rem; }
+.kerning--lowercase-b {		padding-right: 0.346rem; }
+.kerning--lowercase-c {		padding-right: 0.346rem; }
+.kerning--lowercase-d {		margin-left: -0.346rem; }
+.kerning--lowercase-e {		padding-right: 0.146rem; transform: scale(2, 1); display: inline-block; }
+.kerning--lowercase-f {		padding-right: 0.346rem; }
+.kerning--lowercase-g {		margin-left: -0.646rem; }
+.kerning--lowercase-h {		margin-left: -0.646rem; }
+.kerning--lowercase-i {		margin-right: 0.112rem; }
+
+.kerning--lowercase-t {		margin-left: -0.246rem; }
